@@ -12,7 +12,7 @@
             <a href>About</a>
           </li>
           <li>
-            <a href>Blogs</a>
+            <NLink to="/blog">Blog</NLink>
           </li>
           <li>
             <a href>Publications</a>
@@ -44,7 +44,7 @@
 
       &:hover {
         &::before {
-          content: "Cooming Soon";
+          content: "Coming Soon";
           position: absolute;
           left: -100%;
           color: white;

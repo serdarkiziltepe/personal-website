@@ -61,6 +61,15 @@ html {
   padding: 10px 30px;
 }
 
+.button--white {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
 .button--green:hover {
   color: #fff;
   background-color: #3b8070;

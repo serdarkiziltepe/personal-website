@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <Header />
+
     <div>
       <Logo />
       <h1 class="title">Hakımda Sayfası</h1>
@@ -14,10 +16,12 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
+import Header from "~/components/Header.vue";
 
 export default {
   components: {
-    Logo
+    Logo,
+    Header
   }
 };
 </script>

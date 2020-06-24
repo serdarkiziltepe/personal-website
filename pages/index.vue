@@ -17,7 +17,7 @@
       <h2 class="subtitle">Hi, I'm Serdar KIZILTEPE,</h2>
       <p>I'm a Web Developer.</p>
       <div class="links">
-        <a href="mailto:serdar.kiziltepe@gmail.com" target="_blank" class="button--green">CONTACT</a>
+        <a href="mailto:serdar.kiziltepe@gmail.com" target="_blank" class="button--white">CONTACT</a>
       </div>
     </div>
     <div class="social-media">
@@ -79,14 +79,16 @@ export default {
   text-align: left;
   font-weight: 300;
   font-size: 50px;
-  color: #526488;
+  color: #f5f5f5;
   word-spacing: 5px;
+  opacity: 0.9;
 }
 
 p {
-  color: #526488;
+  color: #f5f5f5;
   font-size: 40px;
   margin-top: 0;
+  opacity: 0.9;
 }
 
 .links {
