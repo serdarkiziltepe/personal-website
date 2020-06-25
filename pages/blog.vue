@@ -1,18 +1,45 @@
 <template>
   <div class="container">
-    <Header />
+    <!-- <Header /> -->
+    <div class="blog">
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
 
-    <div>
-      <Logo />
-      <h1 class="title">Hakımda Sayfası</h1>
-      <h2 class="subtitle">Personal Landing Page</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
+
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
+
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
+
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
+
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
+
+      <article>
+        <h1>Neomorphic Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, facere. Harum cupiditate accusantium omnis consequatur. Facilis expedita illum quibusdam repellat debitis a suscipit aliquid nesciunt harum. Eos delectus at quae?</p>
+      </article>
     </div>
   </div>
 </template>
+
 
 <script>
 import Logo from "~/components/Logo.vue";
@@ -26,35 +53,21 @@ export default {
 };
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss">
+.blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  article {
+    box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+    padding: 30px 60px;
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+    background-color: #ebecf0;
 
-.links {
-  padding-top: 15px;
+    h1 {
+      color: #ae1100;
+    }
+  }
 }
 </style>

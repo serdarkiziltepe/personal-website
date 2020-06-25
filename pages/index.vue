@@ -17,25 +17,35 @@
       <h2 class="subtitle">Hi, I'm Serdar KIZILTEPE,</h2>
       <p>I'm a Web Developer.</p>
       <div class="links">
-        <a href="mailto:serdar.kiziltepe@gmail.com" target="_blank" class="button--white">CONTACT</a>
+        <a href="mailto:serdar.kiziltepe@gmail.com" target="_blank" class="button-green">CONTACT</a>
       </div>
     </div>
     <div class="social-media">
-      <a href="https://www.instagram.com/serdar.kiziltepe/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://github.com/serdarkiziltepe" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/serdarkiziltepe/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a
-        href="https://www.youtube.com/channel/UCOdkumUmsmGM8-0JMlTYt_Q?view_as=subscriber"
-        target="_blank"
-      >
-        <i class="fab fa-youtube"></i>
-      </a>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/serdar.kiziltepe/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/serdarkiziltepe" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/serdarkiziltepe/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCOdkumUmsmGM8-0JMlTYt_Q?view_as=subscriber"
+            target="_blank"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -79,13 +89,14 @@ export default {
   text-align: left;
   font-weight: 300;
   font-size: 50px;
-  color: #f5f5f5;
+  color: #61677c;
   word-spacing: 5px;
   opacity: 0.9;
+  text-shadow: 5px 5px 20px white, -5px -5px 20px #babecc;
 }
 
 p {
-  color: #f5f5f5;
+  color: #61677c;
   font-size: 40px;
   margin-top: 0;
   opacity: 0.9;

@@ -47,14 +47,14 @@
           content: "Coming Soon";
           position: absolute;
           left: -100%;
-          color: white;
+          color: black;
           font-weight: 100;
           padding: 2px;
           font-size: 12px;
         }
       }
       a {
-        color: white;
+        color: black;
         text-decoration: none;
         list-style: none;
         font-size: 15px;
@@ -74,17 +74,34 @@
   text-align: center;
   margin-bottom: 20px;
   cursor: pointer;
+
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 white;
+
+  box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   i {
-    color: white;
+    color: black;
     font-size: 20px;
   }
 }
 
-.open-menu:hover {
-  .primary-menu {
-    transform: translateX(0%);
-    animation: 4s appear;
-    transition: 1s;
-  }
-}
+// .open-menu:hover {
+//   .primary-menu {
+//     display: none;
+//     transform: translateX(0%);
+//     animation: 4s appear;
+//     transition: 1s;
+//   }
+// }
 </style>
