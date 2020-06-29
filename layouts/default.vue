@@ -32,6 +32,7 @@ export default {
 
 <style lang="scss">
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800&display=swap");
 
 html {
   // font-family: "Rasa", serif;
@@ -51,11 +52,17 @@ $white: #ffffff;
 $black: #000;
 $soft-gray: #61677c;
 $red: #ae1100;
+$blue-soft: #253441;
 
 $primary-text-color: #a3b1c6;
 
 a {
   text-decoration: none;
+}
+
+.links {
+  display: inline-flex;
+  margin: 0 10px;
 }
 
 body {
@@ -64,6 +71,8 @@ body {
   background-color: $color-bg;
   line-height: 1.6;
   position: relative;
+
+  cursor: red;
 }
 
 .button-green {
@@ -73,10 +82,16 @@ body {
   text-decoration: none;
   font-weight: bold;
   padding: 15px 50px;
-  box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+
+  box-shadow: -2px -2px 5px white, 2px 2px 5px #babecc;
   transition: all 0.2s ease-in-out;
   &:hover {
-    box-shadow: -2px -2px 5px white, 2px 2px 5px #babecc;
+    background: #ebecf0;
+    box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+  }
+
+  &:active {
+    box-shadow: inset 5px 5px 10px #d6d7da, inset -5px -5px 10px #ffffff;
   }
 }
 
@@ -98,7 +113,7 @@ body {
   z-index: -1;
   .line {
     position: absolute;
-    width: 1px;
+    width: 1.3px;
     height: 100%;
     top: 0;
     left: 50%;
@@ -154,14 +169,14 @@ body {
 
   ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 15px;
 
     li {
       background-color: #ebecf0;
       text-shadow: 1px 1px 0 white;
 
-      box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+      box-shadow: -2px -2px 5px white, 2px 2px 5px #babecc;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
       font-weight: 600;
@@ -176,7 +191,7 @@ body {
       border-radius: 8px;
 
       &:hover {
-        box-shadow: -2px -2px 5px white, 2px 2px 5px #babecc;
+        box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
       }
 
       a {
