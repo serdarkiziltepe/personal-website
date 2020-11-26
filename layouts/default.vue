@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="page">
     <nuxt />
   </div>
 </template>
@@ -12,19 +12,19 @@ export default {
       script: [
         {
           src:
-            "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
-        }
+            "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+        },
       ],
       link: [
         {
           rel: "stylesheet",
           href:
             // "https://fonts.googleapis.com/css2?family=Rasa:wght@500&display=swap"
-            "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-        }
-      ]
+            "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -38,6 +38,7 @@ html {
   // font-family: "Rasa", serif;
   font-family: "Varela Round", sans-serif;
   font-size: 16px;
+  overflow: hidden;
 }
 
 *,
@@ -45,6 +46,11 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+#page {
+  height: 100vh;
+  overflow: hidden;
 }
 
 $color-bg: #ebecf0;

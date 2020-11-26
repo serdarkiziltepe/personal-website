@@ -1,9 +1,5 @@
 <template>
   <div class="container">
-    <!-- Thanks OSORINA IRINA for Animation Codes // Codepen @333397406 -->
-
-    <Header />
-
     <div class="lines">
       <div class="line"></div>
       <div class="line"></div>
@@ -25,15 +21,16 @@
       <h2 class="subtitle">Hi, I'm Serdar KIZILTEPE,</h2>
       <p>I'm a Web Developer.</p>
       <div class="links">
-        <nuxt-link
-          to="/mailto:serdar.kiziltepe@gmail.com"
+        <a
+          href="mailto:serdar.kiziltepe@gmail.com"
           target="_blank"
           class="button-green"
-        >CONTACT</nuxt-link>
+          >CONTACT</a
+        >
       </div>
-      <div class="links">
+      <!-- <div class="links">
         <nuxt-link to="/periodic-table" class="button-green">PERIODIC TABLE</nuxt-link>
-      </div>
+      </div>-->
     </div>
     <div class="social-media">
       <ul>
@@ -48,7 +45,10 @@
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/serdarkiziltepe/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/serdarkiziltepe/"
+            target="_blank"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </li>
@@ -88,8 +88,8 @@ import Header from "~/components/Header.vue";
 export default {
   components: {
     Logo,
-    Header
-  }
+    Header,
+  },
 };
 </script>
 

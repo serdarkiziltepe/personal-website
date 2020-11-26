@@ -1,28 +1,13 @@
 <template>
   <div class="header-menu">
-    <div class="hamburger-icon">
+    <!-- <div class="hamburger-icon">
       <i class="fas fa-bars"></i>
-    </div>
+    </div>-->
     <div>
       <nav>
         <ul>
           <li>
-            <a href>Home</a>
-          </li>
-          <li>
-            <a href>About</a>
-          </li>
-          <li>
-            <a href>Portfolio</a>
-          </li>
-          <li>
-            <a href>Blogs</a>
-          </li>
-          <li>
-            <a href>Pablications</a>
-          </li>
-          <li>
-            <a href>Contact</a>
+            <nuxt-link to="/blogs">Blogs</nuxt-link>
           </li>
         </ul>
       </nav>
@@ -40,12 +25,12 @@
   nav {
     ul {
       padding-left: 0;
-      transform: translateX(calc(100% + 30px));
       li {
         list-style: none;
-        padding-bottom: 10px;
+        margin: 10px;
+        display: inline-block;
         &:last-child {
-          padding-bottom: 0;
+          margin-right: 0;
         }
         a {
           color: #ae1100;
