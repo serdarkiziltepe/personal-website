@@ -19,8 +19,11 @@ export default {
         {
           rel: "stylesheet",
           href:
-            // "https://fonts.googleapis.com/css2?family=Rasa:wght@500&display=swap"
             "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://use.fontawesome.com/releases/v5.13.0/css/all.css",
         },
       ],
     };
@@ -31,9 +34,6 @@ export default {
 
 
 <style lang="scss">
-@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800&display=swap");
-
 html {
   // font-family: "Rasa", serif;
   font-family: "Varela Round", sans-serif;
