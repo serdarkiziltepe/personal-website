@@ -62,17 +62,14 @@
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCOdkumUmsmGM8-0JMlTYt_Q?view_as=subscriber"
+            href="https://500px.com/p/serdarkiziltepe?view=photos"
             target="_blank"
           >
             <i class="fab fa-500px"></i>
           </a>
         </li>
         <li>
-          <a
-            href="https://www.youtube.com/channel/UCOdkumUmsmGM8-0JMlTYt_Q?view_as=subscriber"
-            target="_blank"
-          >
+          <a href="https://twitter.com/Serdarkiziltepe" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
         </li>
