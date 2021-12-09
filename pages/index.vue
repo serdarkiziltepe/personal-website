@@ -19,7 +19,7 @@
         Serdar Landing
       </h1>-->
       <h2 class="subtitle">Hi, I'm Serdar KIZILTEPE,</h2>
-      <p>I'm a Web Developer.</p>
+      <p>I'm a Web Developer. Ph.D. Student.</p>
       <div class="links">
         <a
           href="mailto:serdar.kiziltepe@gmail.com"
